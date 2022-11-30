@@ -1,0 +1,43 @@
+# create by https://github.com/iamcco/coc-gitignore (Wed Nov 30 2022 22:12:48 GMT+0800 (中国标准时间))
+# macOS.gitignore:
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+coc
+configstore
+expressvpn
+github-copilot
+gitconfig
+htop
+iterm2
+neofetch
+thefuck
+mume
+lazygit/state.yml
+__pycache__
+__init__.py
+config.yml
