@@ -1,0 +1,7 @@
+[submodule "nvim"]
+    path = nvim
+    url = git@github.com:tandy1229/nvim-lua.git
+
+[submodule "ranger_devicons"]
+    path = ranger/plugins/ranger_devicons
+    url = git@github.com:alexanderjeurissen/ranger_devicons.git
