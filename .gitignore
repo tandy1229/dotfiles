@@ -41,3 +41,4 @@ lazygit/state.yml
 __pycache__
 __init__.py
 config.yml
+asciinema

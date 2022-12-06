@@ -4,4 +4,4 @@
 
 [submodule "ranger_devicons"]
     path = ranger/plugins/ranger_devicons
-    url = git@github.com:alexanderjeurissen/ranger_devicons.git
+    url = https://github.com/alexanderjeurissen/ranger_devicons.git
