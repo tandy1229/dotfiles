@@ -42,3 +42,7 @@ __pycache__
 __init__.py
 config.yml
 asciinema
+/Ryujinx
+/raycast
+/clash
+/jgit
