@@ -26,9 +26,12 @@ config.font = wezterm.font_with_fallback {
 config.font_rules =
 {
   { intensity = 'Bold', italic = false, font = wezterm.font('JetBrainsMono Nerd Font', { weight = 'ExtraBold' }) },
-  { intensity = 'Bold', italic = true,
-                                          font = wezterm.font('JetBrainsMono Nerd Font',
-      { style = 'Italic', weight = 'ExtraBold' }) },
+  {
+    intensity = 'Bold',
+    italic = true,
+    font = wezterm.font('JetBrainsMono Nerd Font',
+      { style = 'Italic', weight = 'ExtraBold' })
+  },
 }
 
 config.harfbuzz_features = { 'zero' }
