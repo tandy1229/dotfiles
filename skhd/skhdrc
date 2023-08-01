@@ -33,6 +33,8 @@ alt - t : yabai -m window --toggle float;\
 
 alt - f : yabai -m window --toggle zoom-fullscreen
 
+alt - z : yabai -m window --toggle zoom-parent
+
 # rotate
 alt - r : yabai -m space --rotate 90
 
