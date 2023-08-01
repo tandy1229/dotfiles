@@ -4,5 +4,4 @@ export GOPATH="/Users/yitaimin/go"
 export PATH=$PATH:$GOPATH/bin
 export PATH=$PATH:$GOROOT/bin
 # export GO15VENDOREXPERIMENT=1
-export GO15VENDOREXPERIMENT=1
 # export GO111MODULE="off"
