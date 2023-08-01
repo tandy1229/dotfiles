@@ -5,20 +5,20 @@ window:
 
 font:
   normal:
-    family: SauceCodePro Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Regular
 
   bold:
-    family: SauceCodePro Nerd Font
-    style: Bold
+    family: JetBrainsMono Nerd Font Mono
+    style: ExtraBold
 
   italic:
-    family: SauceCodePro Nerd Font
+    family: JetBrainsMono Nerd Font Mono
     style: Italic
 
   bold_italic:
-    family: SauceCodePro Nerd Font
-    style: Bold Italic
+    family: JetBrainsMono Nerd Font Mono
+    style: ExtraBold Italic
 
   size: 18.2
 
@@ -56,4 +56,4 @@ colors:
     white:   '#e6e6e6'
 
 mouse:
-  hide_when_typing: true
+  hide_when_typing: false
