@@ -10,7 +10,7 @@ local function scheme_for_appearance(appearance)
     return "Tokyo Night Moon"
   else
     -- Light theme
-    return "Tokyo Night Day"
+    return "Tokyo Night"
   end
 end
 
