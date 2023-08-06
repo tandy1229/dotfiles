@@ -48,6 +48,9 @@ alt - d : yabai -m space --destroy
 alt - n : yabai -m space --focus next || yabai -m space --focus first
 alt - p : yabai -m space --focus prev || yabai -m space --focus last
 
+# window
+alt - q : yabai -m window --close
+
 # move window to other spaces
 shift + alt - 1 : yabai -m window --space 1; yabai -m space --focus 1
 shift + alt - 2 : yabai -m window --space 2; yabai -m space --focus 2
