@@ -133,11 +133,12 @@ keymap = [
 	{ keys = [ "g", "h" ],		command = "cd ~/" },
 	{ keys = [ "g", "p" ],		command = "cd ~/prog" },
 	{ keys = [ "g", "i" ],		command = "cd ~/Github" },
-	{ keys = [ "g", "f", "f" ],		command = "cd ~/.config" },
+	{ keys = [ "g", "f", "f" ],		command = "cd ~/.config/nvim/lua/init" },
 	{ keys = [ "g", "f", "n" ],		command = "cd ~/.config/nvim" },
 	{ keys = [ "g", "f", "z" ],		command = "cd ~/.config/zsh" },
 	{ keys = [ "g", "f", "j" ],		command = "cd ~/.config/joshuto" },
 	{ keys = [ "g", "f", "l" ],		command = "cd ~/.config/jesseduffield/lazygit" },
+	{ keys = [ "g", "f", "p" ],		command = "cd ~/projects" },
 	{ keys = [ "?" ],		command = "help" }
 ]
 
