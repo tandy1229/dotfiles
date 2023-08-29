@@ -1,3 +1,8 @@
+[user]
+    email = tandy1229@qq.com
+    name = tandy
+    signingkey = 72BF2B42732D44B0
+    ; signingkey = 248DFA774B594D8D
 [core]
     pager = delta
 [interactive]
@@ -13,3 +18,7 @@
     conflictstyle = diff3
 [diff]
     colorMoved = default
+[git]
+    overrideGpg = true
+[commit]
+    gpgsign = true
