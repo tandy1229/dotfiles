@@ -139,6 +139,7 @@ keymap = [
 	{ keys = [ "g", "f", "j" ],		command = "cd ~/.config/joshuto" },
 	{ keys = [ "g", "f", "l" ],		command = "cd ~/.config/jesseduffield/lazygit" },
 	{ keys = [ "g", "f", "p" ],		command = "cd ~/projects" },
+	{ keys = [ "g", "f", "c" ],		command = "cd ~/.config" },
 	{ keys = [ "?" ],		command = "help" }
 ]
 
