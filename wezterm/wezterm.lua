@@ -10,7 +10,7 @@ local function scheme_for_appearance(appearance)
     return "Tokyo Night Moon"
   else
     -- Light theme
-    return "Tokyo Night"
+    return "Dracula"
   end
 end
 
@@ -18,7 +18,7 @@ config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 config.font = wezterm.font_with_fallback {
   'JetBrainsMono Nerd Font',
-  -- 'Microsoft YaHei',
+  'Microsoft YaHei',
   'PingFang',
   'Noto Color Emoji',
 }
