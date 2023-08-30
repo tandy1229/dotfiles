@@ -37,3 +37,8 @@ yabai -m config bottom_padding               00
 yabai -m config left_padding                 00
 yabai -m config right_padding                00
 yabai -m config window_gap                   10
+
+yabai -m rule --add app="^System Preferences*" manage=off
+yabai -m rule --add app="^JetBrains*" manage=off
+yabai -m rule --add app="^iStat*" manage=off
+# yabai -m rule --add app="^Syste*" manage=off
