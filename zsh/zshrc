@@ -1,4 +1,4 @@
-export SHELL='/usr/local/bin/zsh'
+# export SHELL='/usr/local/bin/zsh'
 export VISUAL='nvim'
 export HOMEBREW_NO_AUTO_UPDATE=1
 export GPG_TTY=$(tty)
