@@ -18,21 +18,32 @@ config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 config.font = wezterm.font_with_fallback {
   'JetBrainsMono Nerd Font',
-  'Microsoft YaHei',
   'PingFang',
+  'Microsoft YaHei',
   'Noto Color Emoji',
 }
 
--- config.font_rules =
--- {
---   { intensity = 'Bold', italic = false, font = wezterm.font('JetBrainsMono Nerd Font', { weight = 'ExtraBold' }) },
---   {
---     intensity = 'Bold',
---     italic = true,
---     font = wezterm.font('JetBrainsMono Nerd Font',
---       { style = 'Italic', weight = 'ExtraBold' })
---   },
--- }
+config.font_rules =
+{
+  {
+    intensity = 'Bold',
+    italic = false,
+    font = wezterm.font_with_fallback {
+      { family = 'JetBrainsMono Nerd Font', weight = 'ExtraBold' },
+      { family = 'PingFang',                weight = 'Bold' },
+      { family = 'Microsoft YaHei',         weight = 'Bold' },
+    },
+  },
+  {
+    intensity = 'Bold',
+    italic = true,
+    font = wezterm.font_with_fallback {
+      { family = 'JetBrainsMono Nerd Font', style = 'Italic', weight = 'ExtraBold' },
+      { family = 'PingFang',                style = 'Italic', weight = 'Bold' },
+      { family = 'Microsoft YaHei',         style = 'Italic', weight = 'Bold' },
+    },
+  },
+}
 
 config.harfbuzz_features = { 'zero' }
 
