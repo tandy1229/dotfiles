@@ -1,5 +1,6 @@
 # export SHELL='/usr/local/bin/zsh'
 export VISUAL='nvim'
+export EDITOR='nvim'
 export HOMEBREW_NO_AUTO_UPDATE=1
 export GPG_TTY=$(tty)
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -34,3 +35,5 @@ source ~/.config/zsh/fzf_command.zsh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+source /Users/yitaimin/.config/broot/launcher/bash/br
