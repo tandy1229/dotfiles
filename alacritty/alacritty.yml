@@ -5,20 +5,20 @@ window:
 
 font:
   normal:
-    family: JetBrainsMono Nerd Font Mono
+    family: Maple Mono SC NF
     style: Regular
 
   bold:
-    family: JetBrainsMono Nerd Font Mono
-    style: ExtraBold
+    family: Maple Mono SC NF
+    style: Bold
 
   italic:
-    family: JetBrainsMono Nerd Font Mono
+    family: Maple Mono SC NF
     style: Italic
 
   bold_italic:
-    family: JetBrainsMono Nerd Font Mono
-    style: ExtraBold Italic
+    family: Maple Mono SC NF
+    style: Bold Italic
 
   size: 18.2
 
