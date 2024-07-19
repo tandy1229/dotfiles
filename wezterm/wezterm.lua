@@ -17,6 +17,7 @@ end
 config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 
 config.font = wezterm.font_with_fallback({
+	"Maple Mono",
 	"Maple Mono NF",
 	"JetBrainsMono Nerd Font",
 	-- 'Source Han Serif SC',
@@ -31,6 +32,7 @@ config.font_rules = {
 		intensity = "Bold",
 		italic = false,
 		font = wezterm.font_with_fallback({
+			{ family = "Maple Mono", weight = "ExtraBold" },
 			{ family = "Maple Mono NF", weight = "ExtraBold" },
 			{ family = "JetBrainsMono Nerd Font", weight = "ExtraBold" },
 			{ family = "LGWX WenKai", weight = "Bold" },
@@ -43,6 +45,7 @@ config.font_rules = {
 		intensity = "Bold",
 		italic = true,
 		font = wezterm.font_with_fallback({
+			{ family = "Maple Mono", style = "Italic", weight = "ExtraBold" },
 			{ family = "Maple Mono NF", style = "Italic", weight = "ExtraBold" },
 			{ family = "JetBrainsMono Nerd Font", style = "Italic", weight = "ExtraBold" },
 			{ family = "LGWX WenKai", style = "Italic", weight = "Bold" },
