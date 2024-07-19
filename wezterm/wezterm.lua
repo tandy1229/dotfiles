@@ -19,6 +19,7 @@ config.color_scheme = scheme_for_appearance(wezterm.gui.get_appearance())
 config.font = wezterm.font_with_fallback({
 	"JetBrainsMono Nerd Font",
 	-- 'Source Han Serif SC',
+	"LGWX WenKai",
 	"Source Han Sans SC",
 	"Microsoft YaHei",
 	"Noto Color Emoji",
@@ -30,9 +31,10 @@ config.font_rules = {
 		italic = false,
 		font = wezterm.font_with_fallback({
 			{ family = "JetBrainsMono Nerd Font", weight = "ExtraBold" },
-			{ family = "Source Han Sans SC",      weight = "Bold" },
+			{ family = "LGWX WenKai", weight = "Bold" },
+			{ family = "Source Han Sans SC", weight = "Bold" },
 			-- { family = "Source Han Serif SC",     weight = "Bold" },
-			{ family = "Microsoft YaHei",         weight = "Bold" },
+			{ family = "Microsoft YaHei", weight = "Bold" },
 		}),
 	},
 	{
@@ -40,9 +42,10 @@ config.font_rules = {
 		italic = true,
 		font = wezterm.font_with_fallback({
 			{ family = "JetBrainsMono Nerd Font", style = "Italic", weight = "ExtraBold" },
-			{ family = "Source Han Sans SC",      style = "Italic", weight = "Bold" },
+			{ family = "LGWX WenKai", style = "Italic", weight = "Bold" },
+			{ family = "Source Han Sans SC", style = "Italic", weight = "Bold" },
 			-- { family = "Source Han Serif SC",     style = "Italic", weight = "Bold" },
-			{ family = "Microsoft YaHei",         style = "Italic", weight = "Bold" },
+			{ family = "Microsoft YaHei", style = "Italic", weight = "Bold" },
 		}),
 	},
 }
